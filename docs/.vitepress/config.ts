@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 import { head, nav, sidebar } from './configs'
 
+// 测试
 export default defineConfig({
   outDir: '../dist',
   // base: process.env.APP_BASE_PATH || '/',
