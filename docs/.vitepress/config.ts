@@ -5,7 +5,8 @@ import { head, nav, sidebar } from './configs'
 // 测试
 export default defineConfig({
   outDir: '../dist',
-  base: process.env.APP_BASE_PATH || '/',
+  // base: process.env.APP_BASE_PATH || '/',
+  base: '/myBlog/',
 
   lang: 'zh-CN',
   title: '茂茂物语',
