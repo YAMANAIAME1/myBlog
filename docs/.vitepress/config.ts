@@ -6,7 +6,7 @@ import { head, nav, sidebar } from './configs'
 export default defineConfig({
   outDir: '../dist',
   // base: process.env.APP_BASE_PATH || '/',
-  base: '/',
+  base: '/myBlog/',
 
   lang: 'zh-CN',
   title: '茂茂物语',
