@@ -1,18 +1,31 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '个人主页', link: 'https://fe-mm.com' },
+  { text: '导航', link: '/nav/' },
   {
-    text: '茂茂物语',
-    link: 'https://notes.fe-mm.com'
+    text: '前端',
+    items: [
+      { text: 'JavaScript 基础知识', link: 'https://www.baidu.com' },
+      { text: 'CSS 理论知识点', link: 'https://www.baidu.com' },
+      { text: 'ES6 常用知识', link: 'https://www.baidu.com' }
+    ]
   },
   {
-    text: '日常笔记',
-    link: 'https://github.com/maomao1996/daily-notes'
+    text: '源码阅读',
+    link: 'https://www.baidu.com'
   },
-  { text: 'mmPlayer', link: 'https://netease-music.fe-mm.com' },
+
+  { text: 'workflow', link: 'https://www.baidu.com' },
   {
-    text: '油猴脚本',
-    link: 'https://github.com/maomao1996/tampermonkey-scripts'
+    text: '笔记',
+    link: 'https://www.baidu.com'
+  },
+  {
+    text: '工具',
+    link: 'https://www.baidu.com'
+  },
+  {
+    text: '保护头发',
+    link: 'https://github.com/YAMANAIAME1'
   }
 ]

@@ -3,20 +3,17 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂的
-  text: 个人前端导航
-  tagline: 使用 VitePress 打造个人前端导航
+  name: 保护头发
+  text: 一个小菜鸡罢了
+  tagline: 记录下学习咯
   image:
     src: /logo.png
-    alt: 茂茂物语
+    alt: 保护头发
   actions:
-    - text: 茂茂物语
-      link: https://notes.fe-mm.com
+    - text: 保护头发
+      link: https://github.com/YAMANAIAME1
     - text: 前端导航
       link: /nav/
-      theme: alt
-    - text: mmPlayer
-      link: https://netease-music.fe-mm.com
       theme: alt
 features:
   - icon: 📖

@@ -5,12 +5,10 @@ import { head, nav, sidebar } from './configs'
 // 测试
 export default defineConfig({
   outDir: '../dist',
-  // base: process.env.APP_BASE_PATH || '/',
-  // base: '/myBlog/',
 
   lang: 'zh-CN',
-  title: '茂茂物语',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  title: '保护头发',
+  description: '摸鱼日常',
   head,
 
   lastUpdated: true,
@@ -35,12 +33,7 @@ export default defineConfig({
       label: '本页目录'
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
-
-    footer: {
-      message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'Copyright © 2019-present maomao'
-    },
+    socialLinks: [{ icon: 'github', link: 'https://github.com/YAMANAIAME1' }],
 
     darkModeSwitchLabel: '外观',
     returnToTopLabel: '返回顶部',
