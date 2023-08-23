@@ -5,7 +5,7 @@ layoutClass: 'm-home-layout'
 hero:
   name: 保护头发
   text: 一个小菜鸡罢了
-  tagline: 记录下学习咯
+  tagline: 很高心认识大家
   image:
     src: /logo.png
     alt: 保护头发
@@ -52,4 +52,8 @@ features:
   margin-top: 2em;
   text-align: right;
 }
+.m-home-layout .VPFeature:hover {
+  border: 1px solid var(--vp-c-bg-soft);
+}
+
 </style>

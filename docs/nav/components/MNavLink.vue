@@ -37,6 +37,7 @@ const svg = computed(() => {
             onerror="this.parentElement.style.display='none'"
           />
         </div>
+
         <h5 v-if="title" :id="formatTitle" class="title">{{ title }}</h5>
       </div>
       <p v-if="desc" class="desc">{{ desc }}</p>
