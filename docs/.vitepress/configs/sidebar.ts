@@ -36,6 +36,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: 'HTML理论知识点', link: 'https://www.baidu.com' },
         { text: 'CSS理论知识点', link: 'https://www.baidu.com' }
       ]
+    },
+    {
+      text: '面试题',
+      items: [{ text: '8月面试题', link: '/fe/JavaScript/interview' }]
     }
   ]
 }
